@@ -1,5 +1,6 @@
 [package]
-name = "mmio"
+# Some cunt used `mmio` name for useless piece of library
+name = "dev-mmio"
 version = "0.1.0"
 edition = "2021"
 description = "Memory mapped IO"
