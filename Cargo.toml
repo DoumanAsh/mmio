@@ -1,0 +1,20 @@
+[package]
+name = "mmio"
+version = "0.1.0"
+edition = "2021"
+description = "Memory mapped IO"
+readme = "README.md"
+repository = "https://github.com/DoumanAsh/mmio"
+license = "BSL-1.0"
+keywords = ["mmio"]
+categories = ["embedded", "hardware-support"]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "README.md",
+    "LICENSE",
+]
+
+[dependencies.libc]
+version = "0.2"
+default-features = false
